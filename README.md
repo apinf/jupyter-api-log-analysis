@@ -1,3 +1,5 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/apinf/jupyter-api-log-analysis)
+
 # Jupyter Notebook - API log analysis
 A Jupyter Notebook for analyzing log files from API Umbrella.
 
