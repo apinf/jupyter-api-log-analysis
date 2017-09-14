@@ -1,6 +1,7 @@
 bleach==1.5.0
 bokeh==0.12.9
 certifi==2016.2.28
+cycler==0.10.0
 decorator==4.1.2
 entrypoints==0.2.3
 html5lib==0.9999999
@@ -14,6 +15,7 @@ jupyter-client==5.1.0
 jupyter-core==4.3.0
 jupyter-dashboards==0.7.0
 MarkupSafe==1.0
+matplotlib==2.0.2
 mistune==0.7.4
 nbconvert==5.2.1
 nbformat==4.4.0
@@ -26,6 +28,7 @@ pickleshare==0.7.4
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 Pygments==2.2.0
+pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2017.2
 PyYAML==3.12
