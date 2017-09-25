@@ -9,7 +9,7 @@ features = np.delete(tpot_data.view(np.float64).reshape(tpot_data.size, -1), tpo
 training_features, testing_features, training_target, testing_target = \
     train_test_split(features, tpot_data['class'], random_state=42)
 
-exported_pipeline = GradientBoostingClassifier(max_depth=7, max_features=0.9000000000000001, min_samples_leaf=10, min_samples_split=5)
+exported_pipeline = GradientBoostingClassifier(learning_rate=0.5, max_depth=8, min_samples_leaf=19, min_samples_split=11, n_estimators=100, subsample=0.45)
 
 exported_pipeline.fit(training_features, training_target)
 results = exported_pipeline.predict(testing_features)
