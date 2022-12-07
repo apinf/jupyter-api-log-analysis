@@ -1,6 +1,6 @@
 bleach==1.5.0
 bokeh==0.12.9
-certifi==2016.2.28
+certifi==2022.12.7
 cycler==0.10.0
 decorator==4.1.2
 elasticsearch==5.4.0
